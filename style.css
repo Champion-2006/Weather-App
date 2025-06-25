@@ -1,0 +1,112 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+h1
+{
+    font-size: 2.5rem;
+    text-align: center;
+    color:  white;
+}
+body
+{
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(to bottom, #000428, #004e92);
+
+}
+.nav
+{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 8vh;
+    width: 100%;
+}
+.nav input
+{
+    padding: 20px;
+    height: 100%;
+    width: 70%;
+    border-radius: 40px;
+    border: 1px solid black;
+}
+.search
+{
+    margin-left: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height: 8vh;
+    width: 8vh;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 1px solid black;
+}
+.search i
+{
+    font-size: 20px;
+}
+.search:hover
+{
+    background-color: #D3D3D3;
+    transition: all;
+    transition-timing-function: ease;
+}
+.parent_img
+{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 40vh;
+    width: 100%;
+}
+.image
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    width: 40vh;
+}
+.image img
+{
+    height: 100%;
+    width: 100%;
+}
+.font
+{
+    color: white;
+    font-size: 40px;
+}
+
+.info
+{
+    height: 35vh;
+    display: none;
+}
+.div1
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 50%;
+}
+.div2
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 50%;
+    /* background-color: green; */
+}
+p
+{
+    margin-left: 10px;
+    display: inline-block;
+}

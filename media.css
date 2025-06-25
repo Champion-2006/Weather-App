@@ -1,0 +1,49 @@
+@media (max-width : 700px)
+{
+    .h1
+    {
+        font-size: 2rem;
+    }
+    .nav
+    {
+        height: 5vmax;
+    }
+    .search
+    {
+        height: 7vmax;
+        width: 7vmax;
+    }
+    .space
+    {
+        gap: 2px;
+    }
+    .info
+    {
+        display: flex;
+        flex-direction: column;
+        height: 48vh;
+    }
+    .div1
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .div2
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .font
+    {
+        font-size: 25px;
+    }
+    .parent_img
+    {
+        height: 30vh;
+    }
+    .image
+    {
+        height: 30vh;
+        width: 30vh;
+    }
+}
