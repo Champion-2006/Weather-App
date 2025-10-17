@@ -1,49 +1,133 @@
-@media (max-width : 700px)
-{
-    .h1
-    {
+@media (max-width: 700px) {
+    body {
+        padding: 10px;
+    }
+
+    h1.title {
         font-size: 2rem;
+        margin-bottom: 20px;
     }
-    .nav
-    {
-        height: 5vmax;
+
+    .nav {
+        height: auto;
+        flex-direction: row;
+        gap: 8px;
     }
-    .search
-    {
-        height: 7vmax;
-        width: 7vmax;
+
+    .search-input {
+        width: calc(100% - 70px);
+        padding: 15px 20px;
+        font-size: 14px;
     }
-    .space
-    {
-        gap: 2px;
+
+    .search {
+        height: 60px;
+        width: 60px;
+        min-height: 60px;
+        min-width: 60px;
     }
-    .info
-    {
-        display: flex;
-        flex-direction: column;
-        height: 48vh;
+
+    .search i {
+        font-size: 18px;
     }
-    .div1
-    {
-        display: flex;
-        flex-direction: column;
-    }
-    .div2
-    {
-        display: flex;
-        flex-direction: column;
-    }
-    .font
-    {
-        font-size: 25px;
-    }
-    .parent_img
-    {
+
+    .parent_img {
         height: 30vh;
+        margin-top: 20px;
     }
-    .image
-    {
+
+    .image {
         height: 30vh;
         width: 30vh;
+        max-width: 250px;
+        max-height: 250px;
+    }
+
+    .info {
+        margin-top: 30px;
+    }
+
+    .div1, .div2 {
+        flex-direction: column;
+        gap: 15px;
+        margin-bottom: 20px;
+    }
+
+    .weather-card {
+        width: 100%;
+        max-width: 400px;
+        padding: 20px;
+        flex-direction: row;
+        justify-content: flex-start;
+        gap: 20px;
+    }
+
+    .weather-card i {
+        font-size: 32px;
+    }
+
+    .weather-card p {
+        font-size: 20px;
+    }
+
+    .font {
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 480px) {
+    h1.title {
+        font-size: 1.6rem;
+    }
+
+    .search-input {
+        font-size: 13px;
+        padding: 12px 18px;
+    }
+
+    .search {
+        height: 50px;
+        width: 50px;
+        min-height: 50px;
+        min-width: 50px;
+    }
+
+    .parent_img {
+        height: 25vh;
+    }
+
+    .image {
+        height: 25vh;
+        width: 25vh;
+        max-width: 200px;
+        max-height: 200px;
+    }
+
+    .weather-card {
+        padding: 18px;
+        gap: 15px;
+    }
+
+    .weather-card i {
+        font-size: 28px;
+    }
+
+    .weather-card p {
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 701px) and (max-width: 1024px) {
+    .div1, .div2 {
+        gap: 15px;
+    }
+
+    .weather-card {
+        min-width: 140px;
+        padding: 20px 25px;
+    }
+
+    .font {
+        font-size: 24px;
     }
 }
